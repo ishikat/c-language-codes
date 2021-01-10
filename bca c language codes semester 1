@@ -1,0 +1,15 @@
+swapping of two numbers with third variable
+#include<stdio.h>
+int main()
+{
+int a,b,c;
+printf("swapping of two numbers using third variable");
+printf("\nlet first number be 'a':");
+scanf("%d",&a);
+printf("\nlet second number be 'b':);
+scanf("%d",&b);
+c=a;
+a=b;
+b=c;
+printf("after swapping numbers are : a=%d,b=%d",a,b);
+return 0;}
